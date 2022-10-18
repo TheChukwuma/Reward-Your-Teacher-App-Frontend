@@ -1,0 +1,24 @@
+.messageTeacher {
+    position: relative;
+    height: 58.125rem;
+    left: 18.25rem;
+    top: 5rem;
+    background: #FFFFFF;
+    border-left: 1px solid rgba(186, 184, 184,0.5);
+    padding: 4rem 4rem;
+    width: 71.75rem;
+    margin: 0rem 0rem 0rem 0rem;
+
+}
+
+.messageTeacher .heading{
+    height: 2.4375rem;
+    width: 14.0625rem;
+    left: 23.75rem;
+    top: 8.5;
+    font: Inter;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #03435f;
+}

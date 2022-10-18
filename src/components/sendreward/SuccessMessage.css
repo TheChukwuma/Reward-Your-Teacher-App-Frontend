@@ -1,0 +1,28 @@
+.successMessage_overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: grid;
+    place-content: center;
+   
+}
+
+.successMessage_overlay .content {
+    width: 25rem;
+    height: 25rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+

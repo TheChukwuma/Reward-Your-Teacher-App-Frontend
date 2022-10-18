@@ -1,0 +1,146 @@
+
+.school{
+    position: relative;
+    height: 58.125rem;
+    left: 18.25rem;
+    top: 5rem;
+    background: #FFFFFF;
+    border-left: 1px solid rgba(186, 184, 184,0.5);
+    padding: 4rem 4rem;
+    width: 71.75rem;
+    margin: 0rem 0rem 0rem 0rem;
+
+}
+
+.school h2  {
+    height: 2.4375rem;
+    width: 14.0625rem;
+    left: 23.75rem;
+    top: 8.5;
+    font: Inter;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #03435f;
+}
+.school .filterSearch{
+    position: relative;
+    width: 63.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.school .filterSearch input{
+    height: 3rem;
+    margin: 2rem 0;
+    width: 56.875rem;
+    padding: 10px;
+    font-size: 1.15rem;
+  
+    
+}
+
+.school .filterSearch .filter{
+    height: 3rem;
+    margin: 2rem 0;
+    width: 5.875rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    
+}
+
+/* Dropdown Button */
+.school .filterSearch .filter .dropbtn {
+    font-size: 1.15rem;
+    width: 5.875rem;
+    border: none;
+    cursor: pointer;
+    height: 3rem;
+    background-color: none;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+   
+  }
+
+
+.school .tableHeading, .school .tableRow {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding: 0 1rem;
+    gap: 11.875rem;
+    width: 63.75rem;
+    
+}
+
+.school .tableHeading{
+    background: rgba(0, 0, 0, 0.04);
+    height: 2.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #03435F
+    
+}
+
+.school .tableRow {
+    border-bottom: 1px solid #C4C4C4;
+    height: 3.0625rem;
+   
+}
+
+/*table row text*/
+.school .tableRow .school_link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 17px;
+    color: #03435F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration:none;
+}
+
+
+
+
+/* Pagination links */
+.school .pagination {
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+

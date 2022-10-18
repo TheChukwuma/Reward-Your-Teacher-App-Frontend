@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+body {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #21334F;
+}
+
+/* visited link */
+a:visited {
+  color: #21334F;
+}
+

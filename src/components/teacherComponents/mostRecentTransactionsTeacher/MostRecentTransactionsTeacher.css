@@ -1,0 +1,78 @@
+.mostRecentTransactions{
+    position: relative;
+    width: 52.5rem;
+    height: 25.5rem;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px 4px rgba(0, 0, 0, 0.04);
+    margin-top: 3.75rem;
+    padding: 0 1.5rem;
+}
+
+.mostRecentTransactions .headingContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    height: 4.3125rem;
+    width: 49.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.mostRecentTransactions .headingContainer h3{
+    width: 98px;
+    height: 19px;
+    left: 24px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #03435F;
+}
+
+.mostRecentTransactions .headingContainer p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2125rem;
+    background: #55A630;
+    color: #FFFFFF;
+    border-radius: 50px;
+    width: 58px;
+    height: 39px;
+    left: 736px;
+    top: 14px;
+    padding: 10px;
+}
+
+.mostRecentTransactions .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    margin: 1rem 0rem;
+}
+
+.mostRecentTransactions .container .viewStudent{
+    width: 6.5rem;
+    height: 2rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2rem;
+    color: #55A630;
+    background-color: rgba(128,185,24,0.1);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.transactionDetails p {
+    margin: 5px;
+    color:#03435F;
+}

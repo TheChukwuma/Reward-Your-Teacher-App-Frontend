@@ -1,0 +1,31 @@
+.rewardPage {
+    display: flex;
+    flex-direction: column;
+    height: 22.5rem;
+    width: 31.8125rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 2rem 2rem 2rem;
+    box-shadow: 0px 4px 24px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.rewardPage .paymentPath{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+}
+
+.rewardPage .paymentPath .btn {
+    margin: 10px;
+    width: 10rem;
+    height: 3rem;
+    line-height: 2.75rem;
+    text-align: center;
+    background-color: #55A630;
+}

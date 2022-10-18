@@ -1,0 +1,60 @@
+.navbarTeacher{
+    display :flex;
+    justify-content: space-between;
+    position:fixed;
+    z-index: 9999;
+    align-items: center;
+    padding: 0rem 2rem;
+    width: 90rem;
+    height: 6rem;
+    left: 0;
+    top: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px 1px rgb(186, 184, 184);
+}
+
+.navbarTeacher .logoContainer{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.navbarTeacher .logoContainer .logo {
+    margin-right: 0.5rem;
+
+}
+
+.navbarTeacher .logoContainer .logoText {
+    width: 246px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #55A630;
+
+}
+.navbarTeacher .profilePictureContainer {
+    display :flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbarTeacher .profilePictureContainer .profilePicture {
+    margin-right: 0.5rem;
+}
+
+.navbarTeacher .profilePictureContainer .userName {
+    width: 46px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #012A4A;
+
+}
